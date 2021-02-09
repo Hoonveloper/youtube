@@ -20,14 +20,14 @@ function header() {
                 <img className="header__logo" src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg"></img>
             </div>
             <div className="header__input">
-                <input type="text"></input>
-                <button><SearchIcon /></button>
+                <input type="text" placeholder="Search"></input>
+                <button><SearchIcon className="header__inputButton"/></button>
             </div>
-            <div className="header__right">
-                <VideoCallIcon/>
-                <AppsIcon/>
-                <NotificationsIcon/>
-                <Avatar 
+            <div className="header__icons">
+                <VideoCallIcon className="header__icon"/>
+                <AppsIcon className="header__icon"/>
+                <NotificationsIcon className="header__icon"/>
+                <Avatar className="header__icon" 
                     alt="kim-jihoon"
                     src="../images/jihoon.jpg"    
                 />

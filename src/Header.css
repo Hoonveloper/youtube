@@ -3,6 +3,14 @@
     align-items: center;
     justify-content: space-between;
     padding:20px;
+    /* 헤더 스티커처럼 고정 하는 부분 */
+    position:sticky;
+    top:0; 
+    /* 이렇게만 해주면 배경이 투명하고 글자가 겹침. */
+    /* 헤더를 맨위 INDEX로 올리고 배경 흰색으로 설정*/
+    z-index:1;
+    background-color: white;
+    
     
 }
 
@@ -15,19 +23,39 @@
     display:flex;
     align-items:center;
     width:40%;
+    border: 1px solid black; 
     
 }
 .header__input input{
     flex:1;
     /*flex:1은 최대한 많은 공간을 차지해라 라는 뜻*/
     margin-right:5px;
-}
-.header__input button{
-    background-color: none;
+    border:none;
 }
 
-.header .header__right{
+.header__input button{
+    background-color: transparent;
+    border:none;
+    padding:0px;
+    color:gray;
+}
+.header .header__inputButton{
+    width:50px;
+    background-color: #fafafa;
+    border-left: 1px solid lightgray;
+}
+.header__input button:hover{
+    cursor: pointer;
+    
+}
+
+.header .header__icons{
     display:flex;
-    padding:5px;
+    
     align-items:center;
+}
+
+ .header__icon{
+    padding:8px;
+
 }

@@ -1,0 +1,14 @@
+.sidebar{
+    position: sticky;
+    top:95px;
+    flex:0.2;
+    flex-wrap: wrap;
+    
+    /* 20%만큼 차지 하라는 뜻  */
+}
+.sidebar hr{
+    height:1px;
+    border: 0;
+    background-color: lightgray;
+    margin:10px 0px;
+}

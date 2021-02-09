@@ -1,0 +1,41 @@
+.sidebarRow{
+    display: flex;
+    align-items:center;
+    padding:10px 20px;
+}
+.sidebarRow .sidebarRow__icon{
+    color:#606060;
+    font-size: large !important;
+    /* !important는 css값은 나중에 설정한 값이 적용되는데 */
+    /* 이를 방지하기 위해 쓴다 */
+    
+
+}
+.sidebarRow__title{
+    font-size:12px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.sidebarRow:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+.sidebarRow:hover .sidebarRow__icon{
+    color:red;
+}
+.sidebarRow:hover .sidebarRow__title{
+    font-weight: bolder;
+}
+.sidebarRow.selected{
+    background-color: lightgray;
+    
+
+}
+.sidebarRow.selected .sidebarRow__icon{
+    color:red;
+}
+.sidebarRow.selected .sidebarRow__title{
+    font-weight: bold;
+    
+
+}
