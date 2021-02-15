@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/youtube/static/css/main.0b1874ce.chunk.css",
+    "main.js": "/youtube/static/js/main.61756d3c.chunk.js",
+    "main.js.map": "/youtube/static/js/main.61756d3c.chunk.js.map",
+    "runtime-main.js": "/youtube/static/js/runtime-main.3d79cd05.js",
+    "runtime-main.js.map": "/youtube/static/js/runtime-main.3d79cd05.js.map",
+    "static/js/2.022dbb0a.chunk.js": "/youtube/static/js/2.022dbb0a.chunk.js",
+    "static/js/2.022dbb0a.chunk.js.map": "/youtube/static/js/2.022dbb0a.chunk.js.map",
+    "static/js/3.4848609d.chunk.js": "/youtube/static/js/3.4848609d.chunk.js",
+    "static/js/3.4848609d.chunk.js.map": "/youtube/static/js/3.4848609d.chunk.js.map",
+    "index.html": "/youtube/index.html",
+    "static/css/main.0b1874ce.chunk.css.map": "/youtube/static/css/main.0b1874ce.chunk.css.map",
+    "static/js/2.022dbb0a.chunk.js.LICENSE.txt": "/youtube/static/js/2.022dbb0a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3d79cd05.js",
+    "static/js/2.022dbb0a.chunk.js",
+    "static/css/main.0b1874ce.chunk.css",
+    "static/js/main.61756d3c.chunk.js"
+  ]
+}
