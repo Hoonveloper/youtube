@@ -35,7 +35,7 @@ icon은 **material ui** 사이트를 이용해 가져왔다. 사용법은 '**이
 ```
 <Link to="/">
 	<MenuIcon/>
-    <img className="header__logo" src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017	.svg"></img>
+    <img className="header__logo" src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017	.svg"></img>
 </Link>
 ```
 
@@ -108,11 +108,7 @@ z-index:1 을 통해서 z평면 상에서 맨 위로 끌어올렸기 때문에 �
 
 
 
-##### 완성사진
 
-header 완성사진은 다음과 같다.
-
-()헤더사진
 
 ------
 
@@ -127,7 +123,9 @@ Sidebar 한 줄 마다 sidebarRow를 넣어서 퍼즐(?) 맞추듯 하나하나 
 기본적으로 home이 select 되어 있고 마우스를 hover하면 그 sidebarRow도 select 된다. 
 
 selected, icon, title 을 props로 넘기고 
+
 ![icon 넘기기](https://user-images.githubusercontent.com/77804950/107990598-15ab3580-7018-11eb-98e8-ebe67e672113.png)
+
 icon도 props로 위와 같이 넘길 수 있었다.
 
 ```
@@ -185,7 +183,7 @@ filter은 material-ui를 이용하고, channel은 channelRow만들어서 props�
 
 
 
-![검색](https://user-images.githubusercontent.com/77804950/107990521-f6aca380-7017-11eb-99cc-5886d0361ff7.png
+![검색](https://user-images.githubusercontent.com/77804950/107990521-f6aca380-7017-11eb-99cc-5886d0361ff7.png)
 
 
 
@@ -227,7 +225,7 @@ npm install @material-ui/icons
 
 ###### 사용법
 
-![구역 나누기](https://user-images.githubusercontent.com/77804950/107990513-f3191c80-7017-11eb-99ff-76e703dd9be1.png)
+![image-20210207030551018](https://user-images.githubusercontent.com/77804950/107990401-c2d17e00-7017-11eb-935d-2b505eac229a.png)
 
 설치가 완료되면 Material icons에서 아이콘을 검색해서
 
@@ -354,6 +352,9 @@ useState를 통해 초기값을 지정해준다.
 그 다음 받은 inputSearch를 Link 컴퍼넌트에 넣어서 value 값을 url에 넣는 방식으로 검색창을 구현했다.
 
 이런식으로 프로젝트에서 검색창을 구현하였다. 
+
+
+
 ![search url](https://user-images.githubusercontent.com/77804950/107990478-e72d5a80-7017-11eb-8447-a5b44bde0269.png)
 
 
@@ -361,4 +362,3 @@ useState를 통해 초기값을 지정해준다.
 ### Link
 
 `import {Link} from "react-router-dom";`
-
